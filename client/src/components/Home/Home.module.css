@@ -1,0 +1,408 @@
+body{
+    background-color: grey;
+}
+
+.padreTop{
+  display:flex;
+}
+
+.LinkClase{
+ padding-top:30px;
+  width:300px;
+  margin:5px;
+}
+
+
+.filtrosyPaginado {
+  font-size:5px;
+  width:1200px;
+}
+
+a{
+   font-size:30px;
+  cursor: pointer;
+}
+
+nav{
+  height:50px;
+}
+
+
+li{
+  border-radius: 2px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: darkgrey;
+  color: white;
+  margin: 4px;
+  background-color:#AA6C39;
+}
+
+.padreDeFiltros {
+  font-size:50px;
+  width:1200px;
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+.ataqueClase{
+  margin:2px;
+  font-size:18px;
+  padding-top:20px;
+  display:flex;
+  flex-direction:column;
+}
+
+.abcClase {
+  justify-content: space-between;
+  font-size:18px;
+  padding-top:20px;
+  display:flex;
+  flex-direction:column;
+}
+
+.tipoClase { 
+  font-size:18px;
+  padding-top:20px;
+  display:flex;
+  flex-direction:column;
+  }
+
+.creadosClase{
+  margin:2px;
+  font-size:18px;
+  padding-top:20px;
+    display:flex;
+  flex-direction:column;
+
+}
+
+select{
+  width:170px;
+  margin:20px;
+  height:30px;
+  cursor: pointer;
+}
+
+
+
+.LabelPagina{
+  font-size:20px !important;
+  margin-top:25px;
+}
+
+.paginadoClase{
+  font-size:18px;
+  margin:0px;
+  height:80px;
+  display:flex;
+  justify-content:center;
+
+}
+
+.paginasClase{
+  margin-top:0px;
+  padding:0px;
+}
+
+
+.searchBarClase{
+  font-size:5px;
+}
+
+.padreDeCards{
+    gap:20px;
+   display:flex;
+   width: 1200px;
+   margin-left:300px;
+   margin-top:50px;
+   flex-wrap: wrap;
+   justify-content: center;
+       text-decoration: none;
+       background-color:GREY;
+}
+
+
+.boton{
+  padding:0px;
+  margin:center;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #AA6C39;    
+  position:relative;
+  display:inline-block;
+  padding: 0; 
+  border:1px solid #ccc;  
+  text-align: center;
+ }
+
+ .boton:hover{
+  background-color: #AA3939;    
+ 
+}   
+
+
+
+
+
+
+/* a partir de aca es de este proyecto (quizá borrar lo demás) */
+
+.containerAll {
+  display:flex;
+  flex-direction:column;
+}
+
+.containerTextsAndSearchBar{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start
+}
+
+
+/* new styles */
+
+.containerImgText{
+
+  display:flex;
+  background-color: #ffffff;
+  justify-content:center;
+  align-content:center;
+  padding:25px;
+  height:600px;
+  border-radius:0px 0px 30px 0px;
+/*     box-shadow: 2px 2px 5px #999; */
+  box-shadow: -12px 9px 56px -11px rgba(0,0,0,0.75);
+  transition:0.5s
+}
+
+ .containerImgText:hover{
+   cursor:pointer;
+   transform: scale(1.01);
+ }
+
+.divCreateClicked{
+  position:absolute;
+  margin:auto;
+  margin-top:-500px;
+  background-color: #ffffff;
+  border-radius:30px 30px 30px 30px;
+  max-width:800px;
+  min-width:800px;
+  min-height:1500px;
+  overflow:hidden;
+  position:relative;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
+  box-shadow: -12px 9px 56px -11px rgba(0,0,0,0.75);
+}
+
+.AnimalsNoFound{
+  margin-top:100px;
+}
+
+.imageBasto{
+  width:50px;
+  margin-left:50px;
+}
+
+.containerLogoAndBastoText{
+  display:flex;
+  background-color:white;
+  width:100%;
+  padding-top:10px;
+
+}
+.textBasto{
+  margin-top:0px;
+}
+
+.managementText{
+  margin-left:-20px;
+  margin-top:30px;
+}
+
+.newAnimalButton{
+  margin-left:-240px;
+  margin-top:15px;
+  background-color:#85ab3a;
+  border:none;
+  color:white;
+  width:150px;
+  height:40px;
+  border-radius:5px;
+}
+
+.containerSearchBar{
+/*   background-color:red; */
+  margin-top:30px;
+  width:100%;
+}
+
+.containerGestionAndButtonCreateAndSearchbar{
+  display:flex;
+  width:100%
+}
+
+.containerGestionAndButtonCreate{
+/*   background-color:red; */
+  min-width:500px;
+}
+
+.inputForm{
+  min-width:700px;
+}
+
+.closeForm{
+  margin-left:600px;
+  border:none;
+  font-size:30px;
+  background-color:white;
+}
+
+.PrymaryTextForm{
+  margin-left:-610px;
+}
+
+.textForm{
+  margin-top:30px;
+  margin-left:-385px;
+}
+
+.styleSelect{
+  min-width:700px;
+
+}
+
+.containerInputAndButtonsForm{
+  display:flex;
+  flex-direction:column;
+}
+
+.containerButtonAdd{
+  margin-left:250px;
+  background-color:Red;
+}
+
+.containerButtonAddAndCanel{
+  display:flex;
+  margin-top:10px;
+  min-width:400px;
+}
+
+.containerButtonClose{
+  margin-left:150px;
+}
+
+.buttonAdd{
+  background-color:#3384d5;
+  border:none;
+  border-radius:5px;
+  color:white;
+}
+
+.buttonClose{
+  background-color:#df3331;
+  border:none;
+  border-radius:5px;
+  color:white;
+}
+
+.addNewEstablishment{
+  margin-top:20px;
+  border:none;
+  background-color:#85ab3a; 
+  border-radius:5px;
+  color:white;
+}
+
+.textFormTypeAnimal{
+  margin-top:30px;
+  margin-left:-600px;
+}
+
+.textFormWeight{
+  margin-top:30px;
+  margin-left:-650px;
+}
+
+.textFormBirthDate{
+  margin-top:30px;
+  margin-left:-600px;
+}
+
+.textFormRace{
+  margin-top:30px;
+  margin-left:-650px;
+}
+
+.textFormPregnant{
+  margin-top:30px;
+  margin-left:-640px;
+}
+
+.textFormObservations{
+  margin-top:30px;
+  margin-left:-600px;
+}
+
+.textFormPadDockName{
+  margin-top:30px;
+  margin-left:-560px;
+}
+
+.textDueDay{
+  margin-top:30px;
+  margin-left:-600px;
+}
+
+.textDeviceType{
+  margin-top:30px;
+  margin-left:-550px;
+}
+
+.textDeviceNumber{
+  margin-top:30px;
+  margin-left:-530px;
+}
+
+.checkboxFormPregntant{
+  margin-left:-250px;
+  margin-top:-40px;
+}
+
+.containerSubmitAndCancel{
+  margin-top:300px;
+}
+
+.styleError{
+  color:red;
+}
+
+.buttonSubmit{
+  background-color:#2f85d8;
+  border:none;
+  border-radius:5px;
+  text-align: center;
+  color:white;
+  height:35px;
+  margin-top:50px;
+  width:200px;
+}
+
+.buttonSubmitDisabled{
+  background-color:white;
+  border:none;
+  border-radius:5px;
+  text-align: center;
+  color:green;
+  height:35px;
+  margin-top:50px;
+  width:200px;
+}
+

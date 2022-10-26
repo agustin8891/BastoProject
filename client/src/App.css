@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+
+
+/* .App-header {
+  background-color: red;;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* table styles 
+
+
+ */
+.headboardIdSenasa{
+  position:absolute;
+  margin-left:0px;
+}
+
+.headboardAnimalType{
+  position:absolute;
+  margin-left:140px;
+}
+
+.headboardWeight{
+  position:absolute;
+  margin-left:320px;
+}
+
+.headboardBirth{
+  position:absolute;
+  margin-left:420px;
+}
+
+  
+.headboardRace{
+  position:absolute;
+  margin-left:580px;
+}
+
+.headboardPregnant{
+  position:absolute;
+  margin-left:750px;
+}
+
+
+.headboardDueDate{
+  position:absolute;
+  margin-left:890px;
+}
+
+
+.headboardObservations{
+  position:absolute;
+  margin-left:1070px;
+}
+
+.headboardCreation{
+  position:absolute;
+  margin-left:1270px;
+}
+
+.headboardUpdate{
+  position:absolute;
+  margin-left:1450px;
+}
+.headboardActions{
+  position:absolute;
+  margin-left:1730px;
+  margin-top:0px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.boardActions{
+  position:absolute;
+  margin-left:1730px;
+  margin-top:-10px;
+  display:flex;
+  /* background-color:blue; */
+  min-width:100px;  
+}
+
+.containerDeleteIcon{
+  margin-left:500px;
+  /* background-color:red; */
+}
+
+/* End head*/
+
+
+.containerHeadboardAndAnimals{
+  display:flex;
+  flex-direction:column;
+  margin-top:-10px;
+  margin-left:50px;
+  border-top: 1px solid black;
+  padding-top:20px;
+}
+
+.containerboardAndAnimals{
+  display:flex;
+  flex-direction:column;
+  margin-top:50px;
+  margin-left:50px;
+  border-top: 1px solid black;
+  padding-top:20px;
+}
+.containerHeadboardAndComponents{
+  max-width:1860px;
+  margin-top:20px;
+}
+
+/* Pages */
+
+.fatherOfPages{
+  display:flex;
+  align-items:center;
+}
+
+.divPages{
+  margin: 100px auto !important;
+  margin-left:1200px !important;
+}
+
+.pageClassItem{
+  cursor: pointer;
+}
+
+.textListAnimals{
+/*   color:red;
+  background-color:red !important; */
+  margin-left:-1600px;
+  margin-top:45px;
+}
